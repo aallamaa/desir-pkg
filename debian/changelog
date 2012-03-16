@@ -7,10 +7,75 @@ desir (0.1-2) UNRELEASED; urgency=low
 
   [  ]
 
- --  <tom@zap>  Fri, 16 Mar 2012 19:29:44 +0000
+  [ Abdelkader ALLAM ]
+  * first commit
+  * removing .pyc file
+  * removing pyc file
+  * Readme updated
+  * README.rst instead of README
+  * update README.rsti
+  * modified redisCommand class
+  * Implementation of the Redis class interface the redis class will be the gateway to access all redis cluster nodes
+  * Counter and Connector added
+  * readme updated
+  * updated readme
+  * updated readme
+  * Connector example provided
+  * update readme
+  * update
+  * updated readme
+  * update
+  * attempt to make a hash type
+  * Hash type working
+  * rename command support added
+  * exec is reserved in python making it execute in python
+  * metaclass way
+  * update
+  * update
+  * exec -> execute
+  * type correction
+  * safe start
+  * sync update
+  * doc update
+  * doc update
+  * typo
+  * update
+  * change in the metaclass
+  * updated NodeError network error handling
+  * transfer implementation in Connector
+  * update in Connector
+  * update of commands.json
+  * exception handling fix
+  * unreceive command added in Connector
+  * typo correction
+  * Connector reply command added
+  * non blocking receive added by passing timeout equal to -1
+  * import of SWM added
+  * Connector integrity feature added ( secret parameter )
+  * Attempt to make redis safe and transaction mode compatible in some way
+  * update
+  * listen command implemented for subscribe, psubscribe
+  * publish subscribe update
+  * allow inheritance of Redis class
+  * listen(True) provide listen in redis-py style
+  * sendreceive command added to Connector
+  * timeout added to sendreceive
+  * threading local
+  * fix incompabilities in protocol implementation with redis 2.6
+  * fix to make it work with python 2.2
+  * small update
+  * fix for python3.2
+  * restore python2 compatibility
+  * pub sub fix
+  * pub/sub description
+  * update commands.json
+  * SubAsync added + doc update
+  * code update
 
-desir (0.1-1) unstable; urgency=low
+  [ Thomas Hunger ]
+  * Enable ipv6
+  * Bump version number
 
-  * source package automatically created by stdeb 0.6.0+git
+  [  ]
 
- -- Abdelkader ALLAM <abdelkader.allam@gmail.com>  Mon, 20 Feb 2012 16:31:42 +0000
+ --  <tom@zap>  Fri, 16 Mar 2012 19:32:36 +0000
