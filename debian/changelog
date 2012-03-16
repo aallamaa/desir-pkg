@@ -1,3 +1,14 @@
+desir (0.1-2) UNRELEASED; urgency=low
+
+  [ Thomas Hunger ]
+  * Debianise
+  * Add a README
+  * Markdown formatting
+
+  [  ]
+
+ --  <tom@zap>  Fri, 16 Mar 2012 19:29:44 +0000
+
 desir (0.1-1) unstable; urgency=low
 
   * source package automatically created by stdeb 0.6.0+git
